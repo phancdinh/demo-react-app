@@ -53,4 +53,4 @@ jobs:
         app-name: 'demo-app-react-dinh'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_3632f111958e42d19ab35610be04675b }}
-        package: .
+        package: 'build'
